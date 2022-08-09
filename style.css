@@ -9,6 +9,7 @@ body {
 
 .header {
   height: 50px;
+  /* width: 1349px; */
   background-color: #c4c4c4;
 }
 
@@ -39,7 +40,7 @@ a {
   display: flex;
   justify-content: center;
   font-size: 50px;
-  margin: 30px;
+  margin: 10px;
 }
 
 .second-nav {
@@ -49,17 +50,19 @@ a {
   text-decoration: none;
   gap: 56px;
   list-style-type: none;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .hero-img {
-  max-width: 1236px;
-  height: 689px;
+  /* max-width: 1236px;
+  height: 689px; */
+  display: flex;
+  justify-content: center;
   margin-left: 60px;
 }
 .under-photo-header {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   font-size: 50px;
   width: 231;
@@ -185,7 +188,21 @@ ul {
   margin-left: 50px;
 }
 .social-links {
-  /* display: flex; */
+  margin-top: 8px;
+  display: flex;
+  gap: 17px;
+}
+
+.fb-logo {
+  width: 20px;
+  height: 20px;
+}
+.insta-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.you-logo {
   width: 20px;
   height: 20px;
 }
